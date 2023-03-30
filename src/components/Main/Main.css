@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;800&display=swap');
+main {
+    background-color: rgb(71, 123, 255);
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 3rem;
+}
+
+main p {
+    font-family: 'Rubik', sans-serif;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+main p:last-of-type {
+    font-family: 'Rubik', sans-serif;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    /* text-align: center; */
+    /* font-size: 2rem; */
+    margin-top: 1rem;
+}
+
+
+
+main h1 {
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+
+.mpeiLogoImg {
+    /* height: 10rem; */
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;   
+}
+
+.mainDescription {
+    width: 900px;
+    height: 350px;
+    border: 2px solid white;
+    display: block;
+    margin: 2rem auto;
+    padding: 30px;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.mainDescription ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+
+.mainDescription li {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

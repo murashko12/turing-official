@@ -1,0 +1,35 @@
+.coursesContent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: auto;
+    text-align: center;
+    gap: 2rem;
+}
+
+.coursesContent h1 {
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 1rem;
+    color: rgb(71, 123, 255);;
+}
+
+.coursesContent h3 {
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    font-size: 4rem;
+    /* margin-top: 50px; */
+}
+
+
+.front1,.front2,.front3,.front4,.front5,.front6 {
+    height: 300px;    
+}
+
