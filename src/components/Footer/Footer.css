@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;800&display=swap');
 footer {
-    height: 70vh;
+    height: auto;
     background-color: rgb(71, 123, 255);
     padding: 4rem 10%;
     display: flex;
@@ -44,7 +44,7 @@ footer img {
 
 @media (max-width: 990px) {
     footer {
-        height: 140vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
         flex-direction: column;

@@ -1,5 +1,5 @@
 .RequestForm {
-    height: 130vh;
+    height: auto;
     padding: 0 10%;
     color: white;
     background: linear-gradient(90deg, #1b4c5a,#282d33);
