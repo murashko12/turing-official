@@ -14,6 +14,17 @@ form {
     flex-direction: column;
     width: 50%;
     gap: 15px;
+    
+}
+
+form h3 {
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 50px;
 }
 
 .RequestForm input, textarea{
@@ -43,13 +54,21 @@ form {
     scale: 110%;   
 }
 
-.RequestForm h3 {
-    font-family: 'Rubik', sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: white;
-    text-align: center;
-    font-size: 4rem;
-    margin-top: 50px;
+@media(max-width: 990px) {
+    form {
+        width: 100%;
+    }
+    form h3 {
+        font-size: 3rem;
+    }
+    
 }
 
+@media(max-width: 600px) {
+    .RequestForm button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -2,9 +2,16 @@ import React from 'react'
 import './NavBar.css';
 import logo from '../../Images/logo.png'
 
+import {useState} from 'react'
+
+import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
+
 import {Link} from "react-scroll"
 
 const NavBar = () => {
+
+    const [nav, setNav] = useState(false)
+
     const links = [
         {
             id: 1,
@@ -31,15 +38,21 @@ const NavBar = () => {
     return (
         <header>
             <img src={logo} alt={`${logo}`} className="logoImg" />
-            <ul>
+
+            <ul className={nav ? 'active'  : 'NavBarUl'}>
                 {links.map(({id, link}) => (
                     <li key={id}>
-                        <Link to={link} smooth duration={900}>
+                        <Link onClick={() => setNav(false)} to={link} smooth duration={900}>
                             {link}
                         </Link>
                     </li>
                 ))}
             </ul>
+
+            <div onClick={() => setNav(!nav) } className='mobileBtn'>
+                
+                {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25}/>}
+            </div>
         </header>
     )
 }

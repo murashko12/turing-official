@@ -33,7 +33,7 @@
     text-transform: uppercase;
     font-weight: 500;
     color: white;
-    /* text-align: center; */
+    text-align: center;
     font-size: 4rem;
     margin-top: 50px;
 }

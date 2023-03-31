@@ -41,3 +41,12 @@
     border-radius: 20px;
     object-fit: cover;	
 }
+
+@media (max-width: 1130px) {
+    .teamContent {
+        height: 670vh;
+    }
+    .teamCards {
+        grid-template-columns: 1fr;
+    }
+}
