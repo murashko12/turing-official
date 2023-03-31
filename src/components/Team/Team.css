@@ -28,7 +28,7 @@
 
 .teamCard{
     background-color: rgb(45, 45, 45);
-    height: 500px;
+    height: auto;
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
     transition-duration: 400ms;
     border-radius: 20px;
@@ -43,13 +43,16 @@
 }
 
 @media (max-width: 1130px) {
-    .teamContent {
-        height: 300vh;
-    }
-    .teamCards {
-        grid-template-columns: 1fr;
-    }
     .teamCard{
         height: 300px;
     }
 }
+
+@media (max-width: 740px) {
+    .teamCards{
+        grid-template-columns: 1fr;
+        gap: 1%;
+    }
+    
+}
+
