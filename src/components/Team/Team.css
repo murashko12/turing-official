@@ -44,9 +44,12 @@
 
 @media (max-width: 1130px) {
     .teamContent {
-        height: 670vh;
+        height: 300vh;
     }
     .teamCards {
         grid-template-columns: 1fr;
+    }
+    .teamCard{
+        height: 300px;
     }
 }
